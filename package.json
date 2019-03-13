@@ -1,0 +1,15 @@
+{
+  "name": "validation",
+  "version": "1.0.0",
+  "description": "verify algorithm validation with offline connexion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validation",
+    "algorithme"
+  ],
+  "author": "Gasmi Abderrazek",
+  "license": "ISC"
+}
