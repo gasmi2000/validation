@@ -37,8 +37,8 @@ public class Validation extends CordovaPlugin {
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("validatePassword")) {
-            String password = args.getJSONObject(0).getString("password");
-            String correctHash =  args.getJSONObject(0).getString("correctHash");
+            String password = args.getJSONObject(0).getString(password);
+            String correctHash =  args.getJSONObject(0).getString(correctHash);
              
             try{
              resultat= validatePassword(password,correctHash);
